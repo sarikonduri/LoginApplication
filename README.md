@@ -1,6 +1,11 @@
-# SkillTest
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
+# LoginApplication
+Simple login application works as below:
+1. Home page displays image with a "Login" button below
+2. On click of Login, a popup is opened to allow user to enter Email and Password
+3. On Entering details, Email and Password are validated
+4. On Login click, User details are verified and service call is made to fetch mock response
+5. Success or Failure message is displayed to user
+Note: To login sucessfully use Email:"sari@gmail.com", Password:"test123"
 
 ## Development server
 
@@ -25,3 +30,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
